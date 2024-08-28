@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required Meta Tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Document Title, Description, and Author -->
+  <title>Hawk Pro - Bootstrap 5 One Page Template</title>
+  <meta name="description" content="Hawk Pro is a Bootstrap 5 One Page Template.">
+
+  <!-- Favicon and Touch Icons -->
+  <link rel="icon" type="image/png" sizes="512x512" href="./assets/favicon/favicon-512x512.png">
+
+  <!-- Google Fonts Files -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- CSS Files -->
+  <link rel="stylesheet" href="./assets/css/hawk-pro-bsb.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@10.2.0/swiper-bundle.min.css">
+
+  <!-- BSB Head -->
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#bsb-tpl-navbar" data-bs-smooth-scroll="true" tabindex="0">
+
+  <!-- music -->
+  <audio src="music.mp3" autoplay></audio>
+  <!-- Header -->
+  <header id="header">
+
+    <!-- Navbar 2 - Bootstrap Brain Component -->
+    <nav id="scrollspyNav" class="navbar bsb-navbar fixed-top bsb-tpl-navbar-sticky" data-bs-theme="dark" data-bsb-stuck-bg="bg-black" data-bsb-stuck-theme="dark" data-bsb-scroll-y-down="10" data-bsb-scroll-y-up="5">
+      <div class="container position-relative justify-content-center">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/logo2.png" class="bsb-tpl-logo" alt="" style="width: 200px ; height: 185px;">
+        </a>
+        <button class="navbar-toggler border-0 position-absolute start-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list text-white" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+          </svg>
+        </button>
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul id="bsb-tpl-navbar" class="navbar-nav justify-content-end flex-grow-1">
+              <li class="nav-item">
+                <a class="nav-link active text-uppercase fs-1" href="#scrollspyNav" aria-current="page" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasNavbar" style="font-size:12px" >Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-uppercase fs-1" href="#scrollspyAbout" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasNavbar">About The Protagonist</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-uppercase fs-1" href="#scrollspyRoleIntroduction" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasNavbar">Role Introduction</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-uppercase fs-1" href="#scrollspySupporting" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasNavbar">About Supporting Roles</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-uppercase fs-1" href="#scrollspyItems" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasNavbar">Introduction To Main Items</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero 4 Pro - Bootstrap Brain Component -->
+    <section id="scrollspyHero" class="bsb-hero-4-pro px-3 bsb-overlay jarallax-hero" data-jarallax data-speed="0.2">
+      <img class="jarallax-img" src="img/1.jpg" alt="">
+      <div class="container">
+        <div class="row justify-content-md-center align-items-center">
+          <div class="col-12 col-md-11 col-lg-9 col-xl-8 col-xxl-7">
+            <h1 class="display-1 text-white text-center fw-bold mb-4">pokemon orizon</h1>
+            <p class="lead text-white text-center mb-5 d-flex justify-content-sm-center">
+              <span class="col-12 col-sm-10 col-md-8 col-xxl-7">Pocket Monsters, or Pokemon for short.<br>
+               The mysterious and wondrous creatures of this planet.They can be seen everywhere : in the sky, the sea, the forest, and in the city.</span>
+            </p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+              <button type="button" class="btn bsb-btn-2xl btn-outline-light" onclick=javascript:jumpto()>Get Ready For An Adventure!</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </header>
+
+  <!-- Main -->
+  <main id="main">
+
+    <!-- Section - About -->
+    <!-- About 5 - Bootstrap Brain Component -->
+    <section id="scrollspyAbout" class="py-3 py-md-5 py-xl-8 pb-xxl-0 bsb-section-pt-xxl-1">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-10 col-lg-8">
+            <h3 class="fs-5 mb-2 text-secondary text-uppercase">About The Protagonist</h3>
+            <h2 class="display-5 fw-bold mb-4">Riko, a girl from Paldea, has a mysterious pendant.<br>Roy, a boy from Kanto, has a mysterious Pokéball.<br>A new adventure begins for Riko and Roy in the vast world of Pokémon!What encounters and destinies await them?This is a story about "discovering" something important through adventure.
+            </h2>
+            <button type="button" class="btn btn-lg btn-primary mb-3 mb-md-4 mb-xl-5" onclick=javascript:jump()>Discover More</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="scrollspyRoleIntroduction">
+      <div class="container overflow-hidden">
+        <div class="row gy-4 gy-lg-0">
+          <div class="col-12 col-lg-6">
+            <article>
+              <div class="card border-0">
+                <img class="card-img-top img-fluid m-0" loading="lazy" src="img/lico.png" alt="">
+                <div class="card-body border bg-white p-4">
+                  <div class="entry-header mb-3">
+                    <h2 class="card-title entry-title h4 mb-0">
+                      <a class="link-dark text-decoration-none" href="#!">Role Introduction</a>
+                    </h2>
+                  </div>
+                  <p  id="Likothere" class="card-text entry-summary text-secondary mb-3" style="font-size: 24px;">Liko:<br>
+                    A girl from the Paldea region.<br>She sets out on an adventure after receiving a mysterious pendant from her grandmother.<br>
+                    <br>Nyarote:<br>Riko's partner. An evolved form of Meowha.<br>Grass cat Pokémon
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-12 col-lg-6">
+            <article>
+              <div class="card border-0">
+                <img class="card-img-top img-fluid m-0" loading="lazy" src="img/royi.png" alt="">
+                <div class="card-body border bg-white p-4">
+                  <div class="entry-header mb-3">
+                    <h2 class="card-title entry-title h4 mb-0">
+                      <a class="link-dark text-decoration-none" href="#!">Role Introduction</a>
+                    </h2>
+                  </div>
+                  <p class="card-text entry-summary text-secondary mb-3">Roy:<br>A boy from the Kanto region.<br>
+                  He sets out on an adventure to capture the Black Rayquaza that appeared from the "Ancient Pokéball" and flew away.<br>
+                  <br>Hogater:<br>
+                  Roy's partner. He's a happy-go-lucky eater. He likes to sing.<br>The Fire Crocodile Pokémon
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section - Portfolio -->
+    <!-- Project 3 - Bootstrap Brain Component -->
+    <section id="scrollspySupporting" class="py-3 py-md-5 py-xl-8 pb-xxl-0 bsb-section-pt-xxl-1">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-10 col-lg-8">
+            <h3 class="fs-5 mb-2 text-secondary text-uppercase">About Supporting Roles</h3>
+            <h2 class="display-5 fw-bold mb-4">Rising Volteckers members : <br>Friede, Dot, Oreo, Murdoch, Molly, Landau, Liko, Roy<br>There are a total of eight members, each performing their own duties and helping each other to travel together.</h2>
+            <button type="button" class="btn btn-lg btn-primary mb-3 mb-md-4 mb-xl-5" onclick=javascript:Jump()>Discover More</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container overflow-hidden">
+        <div class="row gy-3 gy-lg-4 gy-lg-0x">
+          <div class="col-12 col-lg-6">
+            <figure class="rounded rounded-3 overflow-hidden bsb-overlay-hover m-0">
+              <a href="#!">
+                <img class="img-fluid bsb-scale-up bsb-hover-scale" loading="lazy" src="img/folide.png" alt="">
+              </a>
+              <figcaption>
+                <h3 class="text-white bsb-hover-fadeInLeft">Name : Friede</h3>
+                <h4 class="text-white bsb-hover-fadeInLeft">Work : Captain and court academician</h4>
+                <div class="text-white bsb-hover-fadeInRight">Captain Pikachu : Cap</div>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-12 col-lg-6">
+            <figure class="rounded rounded-3 overflow-hidden bsb-overlay-hover m-0">
+              <a href="#!">
+                <img class="img-fluid bsb-scale bsb-hover-scale-up" loading="lazy" src="img/dot.png" alt="">
+              </a>
+              <figcaption>
+                <h3 class="text-white bsb-hover-fadeInUp">Name : Dot</h3>
+                <h4 class="text-white bsb-hover-fadeInUp">Work : Live broadcast host and equipment engineer</h4>
+                <div class="text-white bsb-hover-fadeInDown">Dot's Partner Pokémon : Welkam</div>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-12 col-lg-6">
+            <figure class="rounded rounded-3 overflow-hidden bsb-overlay-hover m-0">
+              <a href="#!">
+                <img class="img-fluid bsb-scale-up bsb-hover-scale" loading="lazy" src="img/oreo.png" alt="">
+              </a>
+              <figcaption>
+                <h3 class="text-white bsb-hover-fadeInLeft">Name : Oreo</h3>
+                <h4 class="text-white bsb-hover-fadeInLeft">Work : Mechanical Engineering</h4>
+                <div class="text-white bsb-hover-fadeInRight">Oreo's Partner : Metagross</div>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-12 col-lg-6">
+            <figure class="rounded rounded-3 overflow-hidden bsb-overlay-hover m-0">
+              <a href="#!">
+                <img class="img-fluid bsb-scale bsb-hover-scale-up" loading="lazy" src="img/Murdoch.png" alt="">
+              </a>
+              <figcaption>
+                <h3 class="text-white bsb-hover-fadeInUp">Name : Murdoch</h3>
+                <h4 class="text-white bsb-hover-fadeInUp">Work : Cook</h4>
+                <div class="text-white bsb-hover-fadeInDown">Murdoch's Partner : Iwanko</div>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-12 col-lg-6">
+            <figure class="rounded rounded-3 overflow-hidden bsb-overlay-hover m-0">
+              <a href="#!">
+                <img class="img-fluid bsb-scale-up bsb-hover-scale" loading="lazy" src="img/Molly.png" alt="">
+              </a>
+              <figcaption>
+                <h3 class="text-white bsb-hover-fadeInLeft">Name : Molly</h3>
+                <h4 class="text-white bsb-hover-fadeInLeft">Work : nurse</h4>
+                <div class="text-white bsb-hover-fadeInRight">Molly's Partner : Lucky</div>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-12 col-lg-6">
+            <figure class="rounded rounded-3 overflow-hidden bsb-overlay-hover m-0">
+              <a href="#!">
+                <img class="img-fluid bsb-scale bsb-hover-scale-up" loading="lazy" src="img/Landau.png" alt="">
+              </a>
+              <figcaption>
+                <h3 class="text-white bsb-hover-fadeInUp">Name : Landau</h3>
+                <h4 class="text-white bsb-hover-fadeInUp">Work : Ship Owner</h4>
+                <div class="text-white bsb-hover-fadeInDown">Landau's Partner : Nuo</div>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section - Services -->
+    <!-- Service 7 - Bootstrap Brain Component -->
+    </section>
+
+    <!-- Testimonial 4 Pro - Bootstrap Brain Component -->
+    <section class="py-3 py-md-5 py-xl-8 pb-xxl-0 bsb-section-pt-xxl-1">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-10 col-lg-8">
+            <h3 class="fs-5 mb-2 text-secondary text-uppercase">Introduction To Main Items</h3>
+            <h2 class="display-5 fw-bold mb-4">Important items that will appear in the plot</h2>
+            <button type="button" class="btn btn-lg btn-primary mb-3 mb-md-4 mb-xl-5" onclick=javascript:jumpTo()>Discover More</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slider main container -->
+      <div class="container">
+        <!-- Slider Swiper Container -->
+        <div class="swiper bsb-testimonial-pro-4">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper mb-5 mb-md-6">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-body p-4 p-xxl-5">
+                  <div class="bsb-ratings text-warning mb-3" data-bsb-star="5" data-bsb-star-off="0"></div>
+                  <blockquote class="bsb-blockquote-icon mb-3">Brave Onion : <br>The spaceship aboard Rico, Roy and the other members of the Shoryu Volt Attack Team.<br>There are two types: air flight and sea navigation<br>Configuration on board: steering room, conference room, engine room, power distribution room, medical room, kitchen,Observation room, air bag, flying wing deck (battlefield), deck, dormitory</blockquote>
+                  <figure class="d-flex align-items-center m-0 p-0">
+                    <img class="img-fluid rounded rounded-circle m-0 border border-5" loading="lazy" src="img/ship.jpg" alt="Brave Onion" style="width: 90px; height: 90px;">
+                    <figcaption class="ms-3">
+                      <h4 class="mb-1 h5">Brave Onion</h4>
+                      <h5 class="fs-6 text-secondary mb-0">spaceship</h5>
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-body p-4 p-xxl-5">
+                  <div class="bsb-ratings text-warning mb-3" data-bsb-star="4" data-bsb-star-off="1"></div>
+                  <blockquote class="bsb-blockquote-icon mb-3">Rico's Pendant : <br>The pendant that Riko received from her grandmother turns out to be the mysterious Pokémon Terrapagos!<br>Terrapagos : <br>It slept in the form of a pendant for a long time, but after reuniting with the Six Hero Pokémon, it returned to its original Pokémon form.<br>(Riko's grandmother : She is an adventurer who travels all over the world.She teaches Riko and the others about Lucius and the Six Hero Pokémon.)</blockquote>
+                  <figure class="d-flex align-items-center m-0 p-0">
+                    <img class="img-fluid rounded rounded-circle m-0 border border-5" loading="lazy" src="img/likos.png" alt="Rico's Pendant" style="width: 90px; height: 90px;">
+                    <figcaption class="ms-3">
+                      <h4 class="mb-1 h5">Rico's Pendant</h4>
+                      <h5 class="fs-6 text-secondary mb-0">Terrapagos</h5>
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-body p-4 p-xxl-5">
+                  <div class="bsb-ratings text-warning mb-3" data-bsb-star="3" data-bsb-star-off="2"></div>
+                  <blockquote class="bsb-blockquote-icon mb-3">Ancient Poké Ball : <br>A Poké Ball said to have belonged to the ancient adventurer Lucius.It contained the Six Hero Pokémon that once traveled with Lucius.<br>Lucius : <br>A real Pokémon trainer who was once known as the "Ancient Adventurer."<br>He is said to have traveled with the Six Hero Pokémon - Black Rayquaza, Oliva, Galarian Fire, Lapras, Basagiri, and Entei - as well as Terrapagos, and reached the paradise "Rakua"...!?</blockquote>
+                  <figure class="d-flex align-items-center m-0 p-0">
+                    <img class="img-fluid rounded rounded-circle m-0 border border-5" loading="lazy" src="img/roys.png" alt="Roy's Ancient Poké Ball" style="width: 90px; height: 90px;">
+                    <figcaption class="ms-3">
+                      <h4 class="mb-1 h5">Roy's Ancient Poké Ball</h4>
+                      <h5 class="fs-6 text-secondary mb-0">Six Hero Pokémon</h5>
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
+            </div>
+
+            <!-- <div class="swiper-slide">
+              <div class="card">
+                <div class="card-body p-4 p-xxl-5">
+                  <div class="bsb-ratings text-warning mb-3" data-bsb-star="5" data-bsb-star-off="0"></div>
+                  <blockquote class="bsb-blockquote-icon mb-3">We were looking for a company that could help us with our branding. We needed a website and marketing materials. They were able to create a brand identity that we loved. They worked with us to develop a logo that represented our company.</blockquote>
+                  <figure class="d-flex align-items-center m-0 p-0">
+                    <img class="img-fluid rounded rounded-circle m-0 border border-5" loading="lazy" src="./assets/img/testimonial/testimonial-img-4.jpg" alt="Luke Reeves">
+                    <figcaption class="ms-3">
+                      <h4 class="mb-1 h5">Luke Reeves</h4>
+                      <h5 class="fs-6 text-secondary mb-0">Sales Manager</h5>
+                    </figcaption>
+                  </figure>
+                </div>
+              </div> -->
+            </div>
+          </div>
+
+          <!-- If we need pagination -->
+          <div class="swiper-pagination position-relative bottom-0" style="--swiper-pagination-color: var(--bs-primary);  --swiper-pagination-bullet-size: 10px;">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section - Blog -->
+    <!-- Blog 3 Pro - Bootstrap Brain Component -->
+    <section id="scrollspyItems" class="py-3 py-md-5 py-xl-8 pb-xxl-0 bsb-section-pt-xxl-1">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-10 col-lg-8">
+            <h2 class="display-5 fw-bold mb-4"></h2>
+            <button type="button" class="btn btn-lg btn-primary mb-3 mb-md-4 mb-xl-5" onclick="toTop()">Back To Top</button>
+          </div>
+        </div>
+      </div>
+  </section>
+  </main>
+
+  <footer>
+  </footer>
+  
+  <script>
+    function jumpto() {
+      document.body.scrollTop = 600;
+      document.documentElement.scrollTop = 600;
+    }
+
+    function jump() {
+      document.body.scrollTop = 1100;
+      document.documentElement.scrollTop = 1100;
+    };
+
+    function Jump() {
+      document.body.scrollTop = 2800;
+      document.documentElement.scrollTop = 2800;
+    };
+
+    function jumpTo() {
+      document.body.scrollTop = 5700;
+      document.documentElement.scrollTop = 5700;
+    };
+
+    function toTop() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    };
+  </script>
+  <!-- Javascript Files: Vendors -->
+  <script src="https://unpkg.com/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/jarallax@2.1.3/dist/jarallax.min.js"></script>
+  <script src="https://unpkg.com/swiper@10.2.0/swiper-bundle.min.js"></script>
+
+  <!-- Javascript Files: Controllers -->
+  <script src="./assets/controller/hawk-pro-bsb.js"></script>
+  <script src="./assets/controller/testimonial-4.js"></script>
+  <script src="./assets/controller/blog-3.js"></script>
+  <script src="./assets/controller/pricing-3.js"></script>
+  <script src="./assets/controller/contact-4.js"></script>
+  <script src="./assets/controller/fact-5.js"></script>
+  <script src="./assets/controller/skill-2.js"></script>
+
+  <!-- BSB Body End -->
+</body>
+
+</html>
